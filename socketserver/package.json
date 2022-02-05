@@ -1,0 +1,17 @@
+{
+  "name": "WooSocketServer",
+  "version": "1.0.0",
+  "description": "WooCommerceWebHookSocketServer",
+  "main": "index.js",
+  "author": "Waleed Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "longjohn": "^0.2.12",
+    "mysql": "^2.18.1",
+    "node-localstorage": "^2.1.6",
+    "socket.io": "^4.0.1"
+  }
+}

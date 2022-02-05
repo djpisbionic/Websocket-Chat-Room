@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    height: 100%;
+	background: #6a11cb;
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(left, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+	background: -o-linear-gradient(left, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+	background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.chathead {
+ font-family:Baskerville,Times,'Times New Roman',serif;
+ font-size:35px;
+ color:#ffffff;
+ font-variant:small-caps;
+ text-align:center;
+ font-weight:bold;
+ padding:15px 0px 15px 0px; /* Tweak this to your liking */
+ }
+
+.stream-messages-container>.messages,
+.stream-messages-container>.personal-chat-messages,
+.users-container>.users {
+	height: 325px;
+	border: 0.5px #A7A7A7 solid;
+	overflow-y: auto;
+	scrollbar-width: 2px;
+	padding: 0px;
+}
+
+.messages {
+	height: 70%;
+}
+
+.messages-header,
+.messages-footer,
+.users-header {
+	height: 25%;
+	padding: 10px;
+}
+
+.messages>.message {
+	border-radius: 20px;
+	/* padding: 15px;
+	box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 50%); */
+	margin-bottom: 10px;
+}
+
+.messages>.message>p {
+	margin: 0;
+}
+
+.tab {
+	display: none;
+}
+
+.tabs-control>.active {
+	display: block;
+}
+
+.modMsg {
+	font-size: 10px;
+	background: #1c4ca0;
+	padding: 5px;
+	border-radius: 2px;
+	margin-right: 4px;
+	color: white;
+}
+#alertMessage{
+	padding-right: 2px;
+	padding-left: 2px;
+	background: #d21f3d;
+	border-radius: 2px;
+}
+.host-users2 {
+	width:100%;
+	padding: 0px 2px;
+	border-bottom: 1px solid red;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	background-color: #1c4ca0;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 0px;
+}
+.usernamesel a:hover {
+	text-decoration: none;
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
